@@ -1,7 +1,7 @@
 ## This repository documents the analysis steps to identify potential or confirmed contaminants in small RNA sequencing data 
 The results of these analyses form part of a manuscript, which you can find [here](https://www.biorxiv.org/). The links in the sub-headings below lead to short descriptions of the workflows. Below each subheading are lists of the scripts which are described in more detail in the linked description and the actual data.
 
-### Analysis steps of the [central dataset](main_steps.md) (control samples and the plasma titration experiment):
+### [Analysis steps of the central dataset](main_steps.md) (control samples and the plasma titration experiment):
 This is the central part of the project. The steps are related to per-sample read processing, comparison of samples by forming cross-sample read clusters and visualization of results.
   * [runAnalysis_smallRNA_noSalmonella.sh](runAnalysis_smallRNA_noSalmonella.sh)
   * [runAnalysis_smallRNA_withSalmonella.sh](runAnalysis_smallRNA_withSalmonella.sh)
@@ -26,7 +26,7 @@ This is the central part of the project. The steps are related to per-sample rea
   * [anna3tab2venn.R](anna3tab2venn.R)
   * [figure4B-D_potentialContaminants_Exogenous.R](figure4B-D_potentialContaminants_Exogenous.R)
 
-### Analysis of [published](published.md) sRNA sequencing datasets:
+### [Analysis of published](published.md) sRNA sequencing datasets:
 This part documents the steps taken to detect the confirmed contaminants in published datasets and the visualization of the results.
   * [runAnalysis_smallRNA_noSalmonella.sh](runAnalysis_smallRNA_noSalmonella.sh)
   * [cluster_steps_publishedData.sh](cluster_steps_publishedData.sh)
