@@ -23,6 +23,6 @@ barplot2(t(ucpO[ucpO$value=="mean",c("regular.2.1","ultra.clean.1.1","ultra.clea
 axis(2,las=2,yaxs="i",cex=1)
 box(bty="l",lwd=1)
 legend("top",legend=c("regular 2","ultra-clean 1&2","regular 3","ultra-clean 3&4"),border=NA,
-       fil=alpha(colors()[rep(c(641,119),each=2)],c(0.45,0.7,0.6,0.8)),bty="n",
+       fil=alpha(colors()[rep(c(645,116),each=2)],c(0.45,0.7,0.6,0.8)),bty="n",
        title="eluate of column batch",ncol=2,x.intersp = 0.7)
 dev.off()
