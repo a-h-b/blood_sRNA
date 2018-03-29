@@ -39,11 +39,13 @@ This part documents the steps taken to detect the confirmed contaminants in publ
   * [figure3_publishedData.R](figure3_publishedData.R)
 
 ### [Miscellaneous](miscellaneous.md):
-qPCR data and the scripts used to plot the figures.
+qPCR and sRNA seq data and the scripts used to plot the figures.
   * [figure2_WS.Rdata](figure2_WS.Rdata)
   * [figure2_qPCR-results.R](figure2_qPCR-results.R)
   * [161013_qiaSummary_withDnase_extractUCTvsOld.txt](161013_qiaSummary_withDnase_extractUCTvsOld.txt)
   * [figure4A_qPCR-results.R](figure4A_qPCR-results.R)
   * [matchcountSeqOIPerSample4plot.txt](matchcountSeqOIPerSample4plot.txt)
   * [supplementaryFigure3_reducedContaminants.R](supplementaryFigure3_reducedContaminants.R)
+  * [exoRNAs_values.txt](exoRNAs_values.txt)
+  * [figure_s4_potentialExo.R](figure_s4_potentialExo.R)
   
