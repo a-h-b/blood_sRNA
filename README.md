@@ -1,5 +1,5 @@
 ## This repository documents the analysis steps to identify potential or confirmed contaminants in small RNA sequencing data 
-The results of these analyses form part of a manuscript, which you can find [here](https://www.biorxiv.org/). The links in the sub-headings below lead to short descriptions of the workflows. Below each subheading are lists of the scripts which are described in more detail in the linked description and the actual data.
+The results of these analyses form part of a manuscript, which you can find [here](https://www.biorxiv.org/content/early/2018/01/03/232975). The links in the sub-headings below lead to short descriptions of the workflows. Below each subheading are lists of the scripts which are described in more detail in the linked description and the actual data.
 
 ### [Analysis steps of the central dataset](main_steps.md) (control samples and the plasma titration experiment):
 This is the central part of the project. The steps are related to per-sample read processing, comparison of samples by forming cross-sample read clusters and visualization of results.
